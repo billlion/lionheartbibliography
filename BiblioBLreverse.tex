@@ -1,0 +1,18 @@
+\documentclass{article}
+\usepackage[backend=biber,style=numeric,
+sorting=ydnt,defernumbers=true]{biblatex}%mod.
+\addbibresource{mypubls-ordered.bib}
+
+\DeclareBibliographyCategory{cited}
+\AtEveryCitekey{\addtocategory{cited}{\thefield{entrykey}}}
+
+\begin{document}
+	\section{Interesting text}
+	
+	
+	\begin{refsection}[mypubls-ordered.bib]
+		\nocite{*} 
+		\printbibliography[resetnumbers=true,sorting=ydnt,%mod
+		title={Entire publication list sorted by descending year}]   
+	\end{refsection}
+\end{document}
