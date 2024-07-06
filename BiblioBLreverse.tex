@@ -3,16 +3,278 @@
 sorting=ydnt,defernumbers=true]{biblatex}%mod.
 \addbibresource{mypubls-ordered.bib}
 
-\DeclareBibliographyCategory{cited}
-\AtEveryCitekey{\addtocategory{cited}{\thefield{entrykey}}}
+%\DeclareBibliographyCategory{cited}
+%AtEveryCitekey{\addtocategory{cited}{\thefield{entrykey}}}
+
+
+\usepackage[usenames,dvipsnames]{xcolor}
+
+\renewbibmacro{in:}{}
+
+
+\DeclareBibliographyCategory{EIT}
+\addtocategory{EIT}{breckon1987mathematical}
+\addtocategory{EIT}{breckon1988some}
+\addtocategory{EIT}{breckon1988ill}
+\addtocategory{EIT}{breckon1988progress}
+\addtocategory{EIT}{breckon1988data}
+\addtocategory{EIT}{breckon1990parallelism}
+\addtocategory{EIT}{breckon1991measurement}
+\addtocategory{EIT}{lidgey1992electrode}
+\addtocategory{EIT}{paulson1992electrode}
+\addtocategory{EIT}{paulson1992hybrid}
+\addtocategory{EIT}{breckon1992problem}
+\addtocategory{EIT}{paulson1992optimal}
+\addtocategory{EIT}{zhu1992voltage}
+\addtocategory{EIT}{zhu1993serial}
+\addtocategory{EIT}{zhu1993adaptive}
+\addtocategory{EIT}{paulson1993optimal}
+\addtocategory{EIT}{paulson1993fast}
+\addtocategory{EIT}{zhu1994development}
+\addtocategory{EIT}{paulson1994fast}
+\addtocategory{EIT}{paulson1995pompus}
+\addtocategory{EIT}{mcleod1995chest}
+\addtocategory{EIT}{molebny1996sensor}
+\addtocategory{EIT}{lionheart1997time}
+\addtocategory{EIT}{Lionheart1997conformal}
+\addtocategory{EIT}{lionheart1998boundary}
+\addtocategory{EIT}{kolehmainen1999recovery}
+\addtocategory{EIT}{lionheart1999uniqueness}
+\addtocategory{EIT}{lionheart1999electrical}
+\addtocategory{EIT}{jerbi2000sensitivity}
+\addtocategory{EIT}{jerbi2000biomedical}
+\addtocategory{EIT}{lionheart2000generalized}
+\addtocategory{EIT}{kerrouche2001physiological}
+\addtocategory{EIT}{mcleod2001electric}
+\addtocategory{EIT}{borsic2001total}
+\addtocategory{EIT}{polydorides2001considerations}
+\addtocategory{EIT}{borsic2001physiological}
+\addtocategory{EIT}{vauhkonen2001matlab}
+\addtocategory{EIT}{polydorides2002krylov}
+\addtocategory{EIT}{borsic2002generation}
+\addtocategory{EIT}{soleimani2002simulation}
+\addtocategory{EIT}{steele2002through}
+\addtocategory{EIT}{polydorides2002matlab}
+\addtocategory{EIT}{ider2003uniqueness}
+\addtocategory{EIT}{polydorides2003adjoint}
+\addtocategory{EIT}{greive2003process}
+\addtocategory{EIT}{Lionheart2003eit}
+\addtocategory{EIT}{soleimani2004reconstruction}
+\addtocategory{EIT}{lionheart2004geometric}
+\addtocategory{EIT}{soleimani2004bayes}
+\addtocategory{EIT}{soleimani2004feasibility}
+\addtocategory{EIT}{soleimani2004improvement}
+\addtocategory{EIT}{adler2005eidors}
+\addtocategory{EIT}{soleimani2005nonlinear}
+\addtocategory{EIT}{soleimani2005nonlinear2}
+\addtocategory{EIT}{lionheart2005reconstruction}
+\addtocategory{EIT}{aykroyde2006conditional}
+\addtocategory{EIT}{woo2006direct}
+\addtocategory{EIT}{adler2007temporal}
+\addtocategory{EIT}{soleimani2006narrow}
+\addtocategory{EIT}{abascal2007validation}
+\addtocategory{EIT}{adler2007information}
+\addtocategory{EIT}{berkel2007reconstruction}
+\addtocategory{EIT}{steel2007eit}
+\addtocategory{EIT}{adler2008measure}
+\addtocategory{EIT}{boyle2008evaluating}
+\addtocategory{EIT}{adler2008simple}
+\addtocategory{EIT}{adler2008greit}
+\addtocategory{EIT}{cooper2008detecting}
+\addtocategory{EIT}{adler2009greit}
+\addtocategory{EIT}{boyle2009artifacts}
+\addtocategory{EIT}{borsic2010vivo}
+\addtocategory{EIT}{adler2010correcting}
+\addtocategory{EIT}{lionheart2010finite}
+\addtocategory{EIT}{paridis2010shape}
+\addtocategory{EIT}{adler2010electrical}
+\addtocategory{EIT}{abascal2011electrical}
+\addtocategory{EIT}{adler2011minimizing}
+\addtocategory{EIT}{grychtol2011importance}
+\addtocategory{EIT}{boyle2012shape}
+\addtocategory{EIT}{lionheart2012resistor}
+\addtocategory{EIT}{grychtol2012impact}
+\addtocategory{EIT}{chauris2012100}
+\addtocategory{EIT}{crabb2012accounting}
+\addtocategory{EIT}{crabb2013mutual}
+\addtocategory{EIT}{seo2013electromagnetic}
+\addtocategory{EIT}{crabb2014mutual}
+\addtocategory{EIT}{tregidgo2014regional}
+\addtocategory{EIT}{frerichs2017chest}
+\addtocategory{EIT}{boyle2017methods}
+\addtocategory{EIT}{borsic2017acceleration}
+\addtocategory{EIT}{tregidgo2017towards}
+\addtocategory{EIT}{basu2017improved}
+\addtocategory{EIT}{crabb2017sensitivity}
+\addtocategory{EIT}{basu2018model}
+\addtocategory{EIT}{wright201864}
+\addtocategory{EIT}{coxson2022machine} 
+%arridge1998nonuniqueness 
+%york2002custom
+%komarudin2003prototype
+%Hammer2003applications
+%hammer2004recent
+%tomlinson2004development
+%joshi2005inverse
+%lionheart2007analysis Liquid cr
+%polydorides2008forward
+%liu2008lemon
+%lionheart2008inverse
+%gaburro2009recovering
+%lionheart2009reconstruction  (polarization)
+%polydorides2009ocean
+%storteig2010current
+%kotasidis2010space PET
+%kotasidis2010direct PET
+%kotasidis2010fast PET
+%gaburro2010determining
+%betcke2010system
+%wadeson2010scatterkotasidis2011evaluation
+%
+%angelis2010performance PET
+%kotasidis2011single PET
+%angelis2011performance PET
+%markiewicz2011custom PET
+%kotasidis2011evaluation PET
+%markiewicz2011assessment PET
+%kotasidis2011impact PET
+%thompson2011optimisation CT
+%markiewicz2011pet PET
+%thompson2012real CT
+%thompson2012high CT
+%betcke2013multi CT
+%angelis2013acceleration PET
+%thompson2014gpu CT
+%kazantsev2014novel CT
+%kotasidis2014image PET
+%coban2014regularised CT
+%angelis2014evaluation PET
+%kazantsev2014multimodal CT
+%
+%watson2014svd RADAR
+%lionheart2015diffraction RT
+%
+%thompson2015high CT
+%kazantsev20154d CT
+%kazantsev2015employing CT
+%warnett2016towards CT
+%kazantsev2016temporal CT 
+%kazantsev2016sparsity CT
+%khairuddin2016characterization fish
+%jorgensen2016effect CT
+%lionheart2017non CT
+%lionheart2017polarization fish
+%jorgensen2017sparsebeads CT
+%khairuddin2017classification fish
+%yunos2017identification fish
+%webber2018three RT
+%sales2018three RT
+%kazantsev2018joint RT
+%khairuddin2018classification fish
+%lionheart2019histogram RT
+%doeva2020lipschitz
+%pettersen2022oc PET 
+%meric2023hybrid PET
+%wensrich2023direct RT
+%watson2024resolving Radar
+\DeclareBibliographyCategory{METAL}
+\addtocategory{METAL}{higson2002development}
+\addtocategory{METAL}{tamburrino2003non}
+\addtocategory{METAL}{lionheart2003sensitivity}
+\addtocategory{METAL}{soleimani2003image}
+\addtocategory{METAL}{soleimani2003forward}
+\addtocategory{METAL}{higson2003development}
+\addtocategory{METAL}{soleimani2004image}
+\addtocategory{METAL}{soleimani2004molten}
+\addtocategory{METAL}{soleimani2004magnetostatic}
+\addtocategory{METAL}{soleimani2007image}
+\addtocategory{METAL}{ma2007feasibility}
+\addtocategory{METAL}{ledger2013perturbation}
+\addtocategory{METAL}{ledger2016understanding}
+\addtocategory{METAL}{ledger2016electromagnetic}
+\addtocategory{METAL}{ledger2017generalised}
+\addtocategory{METAL}{ledger2017magnetic}
+\addtocategory{METAL}{peyton2017walk}
+\addtocategory{METAL}{ledger2018explicit}
+\addtocategory{METAL}{ledger2019characterisation}
+\addtocategory{METAL}{ledger2022minimal}
+\addtocategory{METAL}{ozdeuger2023measuring}
+\addtocategory{METAL}{ledger2023properties}
+\addtocategory{METAL}{ledger2024characterising}
+\addtocategory{METAL}{ledger2024characterising}
+\DeclareBibliographyCategory{TOMO}
+\addtocategory{TOMO}{thompson2015high}
+\addtocategory{TOMO}{thompson2011optimisation}
+\addtocategory{TOMO}{thompson2012real}
+\addtocategory{TOMO}{thompson2012high}
+\addtocategory{TOMO}{betcke2013multi}
+\addtocategory{TOMO}{thompson2014gpu}
+\addtocategory{TOMO}{kazantsev2014novel}
+\addtocategory{TOMO}{coban2014regularised}
+\addtocategory{TOMO}{kazantsev2014multimodal}
+\addtocategory{TOMO}{thompson2015high}
+\addtocategory{TOMO}{kazantsev20154d}
+\addtocategory{TOMO}{kazantsev2015employing}
+\addtocategory{TOMO}{warnett2016towards}
+\addtocategory{TOMO}{kazantsev2016temporal} 
+\addtocategory{TOMO}{kazantsev2016sparsity}
+\addtocategory{TOMO}{jorgensen2016effect}
+\addtocategory{TOMO}{lionheart2017non}
+\addtocategory{TOMO}{jorgensen2017sparsebeads}
+
+\DeclareBibliographyCategory{PET}
+\addtocategory{PET}{kotasidis2010space}
+\addtocategory{PET}{kotasidis2010direct}
+\addtocategory{PET}{kotasidis2010fast}
+\addtocategory{PET}{angelis2010performance}
+\addtocategory{PET}{kotasidis2011single}
+\addtocategory{PET}{angelis2011performance}
+\addtocategory{PET}{markiewicz2011custom}
+\addtocategory{PET}{kotasidis2011evaluation}
+\addtocategory{PET}{markiewicz2011assessment}
+\addtocategory{PET}{kotasidis2011impact}
+\addtocategory{PET}{markiewicz2011pet}
+\addtocategory{PET}{angelis2013acceleration}
+\addtocategory{PET}{kotasidis2014image}
+\addtocategory{PET}{angelis2014evaluation}
+\addtocategory{PET}{pettersen2022oc}
+\addtocategory{PET}{meric2023hybrid}
+\AtBeginBibliography{%
+	\DeclareFieldFormat{labelnumberwidth}%
+	{\ifcategory{EIT}% if
+		{\color{orange}\mkbibbrackets{#1}}% then
+		{\ifcategory{METAL}% else if
+			{\color{blue}\mkbibbrackets{#1}}% then
+			{\ifcategory{TOMO}% else if
+				{\color{green}\mkbibbrackets{#1}}% then
+				{\ifcategory{PET}
+				{\color{purple}\mkbibbrackets{#1}}	
+				{\mkbibbrackets{#1}}%else
+				}% end if
+			}% end if
+		}% end if
+}}
+\AtEveryBibitem%
+{\ifcategory{EIT}% if
+	{\color{orange}}% then
+	{\ifcategory{METAL}% else if
+		{\color{blue}}% then
+		{\ifcategory{TOMO}% else if
+			{\color{green}}% then
+			{\ifcategory{PET}%else if
+			  {\color{purple}} %else
+			  {} }
+		}% end if
+	}% end if
+}% end if
 
 \begin{document}
-	\section{Interesting text}
 	
-	
+
+
 	\begin{refsection}[mypubls-ordered.bib]
 		\nocite{*} 
-		\printbibliography[resetnumbers=true,sorting=ydnt,%mod
-		title={Entire publication list sorted by descending year}]   
+		\printbibliography[resetnumbers=true,
+		title={W.R.B Lionheart publication list sorted by descending year}]   
 	\end{refsection}
 \end{document}
