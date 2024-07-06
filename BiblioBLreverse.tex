@@ -109,19 +109,32 @@ sorting=ydnt,defernumbers=true]{biblatex}%mod.
 \addtocategory{EIT}{basu2018model}
 \addtocategory{EIT}{wright201864}
 \addtocategory{EIT}{coxson2022machine} 
+
+\DeclareBibliographyCategory{RT}
+\addtocategory{RT}{lionheart2007analysis}
+\addtocategory{RT}{Hammer2003applications}
+\addtocategory{RT}{hammer2004recent}
+\addtocategory{RT}{tomlinson2004development}
+\addtocategory{RT}{lionheart2009reconstruction}
+\addtocategory{RT}{lionheart2015diffraction}
+\addtocategory{RT}{webber2018three}
+\addtocategory{RT}{sales2018three}
+\addtocategory{RT}{kazantsev2018joint}
+\addtocategory{RT}{lionheart2019histogram}
+\addtocategory{RT}{wensrich2023direct}
+
+
 %arridge1998nonuniqueness 
 %york2002custom
 %komarudin2003prototype
-%Hammer2003applications
-%hammer2004recent
-%tomlinson2004development
+
 %joshi2005inverse
-%lionheart2007analysis Liquid cr
+
 %polydorides2008forward
 %liu2008lemon
 %lionheart2008inverse
 %gaburro2009recovering
-%lionheart2009reconstruction  (polarization)
+
 %polydorides2009ocean
 %storteig2010current
 %kotasidis2010space PET
@@ -152,7 +165,7 @@ sorting=ydnt,defernumbers=true]{biblatex}%mod.
 %kazantsev2014multimodal CT
 %
 %watson2014svd RADAR
-%lionheart2015diffraction RT
+
 %
 %thompson2015high CT
 %kazantsev20154d CT
@@ -263,7 +276,9 @@ sorting=ydnt,defernumbers=true]{biblatex}%mod.
 			{\color{green}}% then
 			{\ifcategory{PET}%else if
 			  {\color{purple}} %else
-			  {} }
+			  {\ifcategory{RT}
+		      {\color{red}}}
+	          {} }
 		}% end if
 	}% end if
 }% end if
