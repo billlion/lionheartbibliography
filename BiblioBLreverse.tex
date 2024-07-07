@@ -2,7 +2,7 @@
 \usepackage[backend=biber,style=numeric,
 sorting=ydnt,defernumbers=true]{biblatex}%mod.
 \addbibresource{mypubls-ordered.bib}
-
+\usepackage{hyperref}
 %\DeclareBibliographyCategory{cited}
 %AtEveryCitekey{\addtocategory{cited}{\thefield{entrykey}}}
 
@@ -283,12 +283,16 @@ sorting=ydnt,defernumbers=true]{biblatex}%mod.
 	}% end if
 }% end if
 
+\title{William R,B. Lionheart publication list}
 \begin{document}
+\maketitle
+Papers on the inverse conductivity problem including biomedical and industrial application are listed in \textcolor{orange}{orange}.  Papers on magnetic induction imaging including industrial and medical  monitoring and metal imaging for security and mine detection are in \textcolor{blue}{blue}.  Work on Positron Emission Tomography and proton therapy dose imaging are in \textcolor{purple}. Papers on X-ray attenuation tomography including applications to security screening, materials and manufacturing are in \textcolor{green}{green}. In \textcolor{green}{green} are papers on rich tomography methods including spectroscopic and diffraction imaging methods, polarized light and neutron Bragg edge imaging of strain, and polarimetric neutron imaging of magnetic fields. See also \href{https://scholar.google.com/citations?user=S1QF1uQAAAAJ&hl=en}{Google Scholar}. Orcid ID \href{https://orcid.org/0000-0003-0971-4678}{0000-0003-0971-4678}.
 
-Papers on the inverse conductivity problem including biomedical and industrial application are listed in \textcolor{orange}{orange}.  Papers on magnetic induction imaging including industrial and medical  monitoring and metal imaging for security and mine detection are in \textcolor{blue}{blue}.  Work on Positron Emission Tomography and proton therapy dose imaging are in \textcolor{purple}. Papers on X-ray attenuation tomography including applications to security screening, materials and manufacturing are in \textcolor{green}{green}. In \textcolor{green}{green} are papers on rich tomography methods including spectroscopic and diffraction imaging methods, polarized light and neutron Bragg edge imaging of strain, and polarimetric neutron imaging of magnetic fields. 
 	\begin{refsection}[mypubls-ordered.bib]
 		\nocite{*} 
 		\printbibliography[resetnumbers=true,
-		title={References reverse chronological}]   
+		title={References reverse chronological order}]   
 	\end{refsection}
+
+\small{This bibliography is available on \href{https://github.com/billlion/lionheartbibliography}{Github} under Creative Commons license, with releases archived on Zenodo}
 \end{document}
